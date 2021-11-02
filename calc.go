@@ -11,3 +11,7 @@ func Perkalian(a, b int) {
 	hasil := a * b
 	fmt.Println(hasil)
 }
+
+func SayHello() string{
+	return "Hello from module"
+}
