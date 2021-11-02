@@ -12,6 +12,6 @@ func Perkalian(a, b int) {
 	fmt.Println(hasil)
 }
 
-func SayHello() string{
-	return "Hello from module"
+func SayHello(nama string) string{
+	return "Hello from module" + nama
 }
